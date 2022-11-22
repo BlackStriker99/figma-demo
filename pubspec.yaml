@@ -1,0 +1,45 @@
+name: brijesh_s_application1
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^0.22.0
+  flutter_switch: ^0.3.2
+  intl: ^0.17.0
+  url_launcher: 6.0.20
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Open Sans
+      fonts: 
+        - asset: assets/fonts/OpenSansSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/OpenSansRegular.ttf
+          weight: 400
+        - asset: assets/fonts/OpenSansRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/OpenSansBold.ttf
+          weight: 700
+        - asset: assets/fonts/OpenSansRomanRegular.ttf
+          weight: 400
+        - asset: assets/fonts/OpenSansRomanSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/OpenSansRomanLight.ttf
+          weight: 300
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
